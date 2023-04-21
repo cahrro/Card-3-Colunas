@@ -4,6 +4,8 @@
     --laranja: hsl(31, 77%, 52%);
     --ciano: hsl(184, 100%, 22%);
     --ciano-escuro: hsl(179, 100%, 13%);
+    --branco:  hsla(0, 0%, 100%, 0.75);
+    --cinza: hsl(0, 0%, 95%);
 
     --font1: 'Big Shoulders Display', cursive;
     --font2: 'Lexend Deca', sans-serif;
@@ -16,5 +18,36 @@
 }
 
 body{
+    color: var(--branco);
+    height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+main{
+    max-width: 800px;
+    
+}
+
+.carro{
+    
+}
+
+.sedan{
+    background-color: var(--laranja);
+}
+
+.suv{
+    background-color: var(--ciano);
+}
+
+.luxury{
+    background-color: var(--ciano-escuro);
+}
+
+.btn{
+
 }
